@@ -1,11 +1,7 @@
 Open Source Development Checklist
 =================================
 
-<style type="text/css">
-  :target { border: 2px solid red; }
-</style>
-
-<p style="text-align: center; text-decoration: underline; font-size: 115%; color: red; " >DRAFT -- in progress</span>
+**_(DRAFT -- in progress)_**
 
 This checklist is for developers and managers who are new to open
 source practices.  It is based on our experiences working with many
