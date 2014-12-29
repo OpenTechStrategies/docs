@@ -17,6 +17,8 @@ We update this checklist based on our work with our own clients, on
 our observations of various open source projects, and on feedback from
 other firms doing similar consulting.
 
+This checklist is published under the [Creative Commons Attribution-ShareAlike 3.0](https://creativecommons.org/licenses/by-sa/3.0/) license.
+
 Version Control
 ---------------
 
