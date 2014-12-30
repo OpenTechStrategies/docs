@@ -24,7 +24,7 @@ Version Control
   public version control repository that can be accessed using an open
   source version control client.  (See ["Be Open From Day
   One"](http://opentechstrategies.com/resources#be-open-from-day-one)
-  for why it is important to develop in the open from the beginning.]
+  for why it is important to develop in the open from the beginning.)
 
   "Public" means that anyone with Internet access can check out a
   copy of the project, without needing to register an account on the
