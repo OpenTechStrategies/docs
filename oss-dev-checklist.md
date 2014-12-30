@@ -42,7 +42,7 @@ Version Control
   repository yourself), that's fine, as long as people can access the
   code using widely-used open source tools.
 
-* <a href="vc-namespace" id="vc-namespace">**Put repositories in one project-related namespace.**</a>
+* <a href="#vc-namespace" id="vc-namespace">**Put repositories in one project-related namespace.**</a>
 
   Host all repositories under a single, project-related namespace.
 
@@ -70,19 +70,19 @@ Version Control
   officially incorporated into the project is precisely by the fact
   that it has entered one of the official repositories.
 
-* <a href="vc-docs-etc" id="vc-docs-etc" >**Version documentation, design diagrams, etc, as well as code.**</a>
+* <a href="#vc-docs-etc" id="vc-docs-etc" >**Version documentation, design diagrams, etc, as well as code.**</a>
 
   TBD
 
-* <a href="vc-sources-only" id="vc-sources-only" >**Version source files, not generated files.**</a>
+* <a href="#vc-sources-only" id="vc-sources-only" >**Version source files, not generated files.**</a>
 
   TBD
 
-* <a href="commit-often" id="commit-often" >**Commit frequently -- don't wait until something is perfect.**</a>
+* <a href="#commit-often" id="commit-often" >**Commit frequently -- don't wait until something is perfect.**</a>
 
   TBD
 
-* <a href="placeholders-for-sensitive-data" id="placeholders-for-sensitive-data" >**Store placeholder templates for passwords, live server configuration, etc.**</a>
+* <a href="#placeholders-for-sensitive-data" id="placeholders-for-sensitive-data" >**Store placeholder templates for passwords, live server configuration, etc.**</a>
 
   TBD
 
@@ -91,25 +91,25 @@ Version Control
 Documentation
 -------------
 
-* <a href="doc-audience" id="doc-audience" >**Document with a target audience in mind.**</a>
+* <a href="#doc-audience" id="doc-audience" >**Document with a target audience in mind.**</a>
 
   TBD
 
-* <a href="doc-format" id="doc-format" >**Write documentation in Markdown format.**</a>
+* <a href="#doc-format" id="doc-format" >**Write documentation in Markdown format.**</a>
 
   TBD.  Note the Markdown preview tools that are available.
 
-* <a href="overview-in-readme" id="overview-in-readme" >**Put overview documentation into `README.md`.**</a>
+* <a href="#overview-in-readme" id="overview-in-readme" >**Put overview documentation into `README.md`.**</a>
 
   TBD.  Distinguish between README and INSTALL files.
 
-* <a href="separate-install-doc" id="separate-install-doc" >**Put overview documentation into `INSTALL.md`.**</a>
+* <a href="#separate-install-doc" id="separate-install-doc" >**Put overview documentation into `INSTALL.md`.**</a>
 
-* <a href="publish-license" id="publish-license" >**Use a LICENSE.md file so people know the code is open source.**</a>
+* <a href="#publish-license" id="publish-license" >**Use a LICENSE.md file so people know the code is open source.**</a>
 
   TBD.  Include links to advice on choosing a license.
 
-* <a href="dev-docs" id="dev-docs" >**Document all needed test servers, etc**</a>
+* <a href="#dev-docs" id="dev-docs" >**Document all needed test servers, etc**</a>
 
   TBD.  Really this is about developer documentation in general.
 
@@ -123,14 +123,14 @@ Bug Tracking
 Communications
 --------------
 
-* <a href="use-project-forums" id="use-project-forums" >**Use the project's discussion list, not private emails.**</a>
+* <a href="#use-project-forums" id="use-project-forums" >**Use the project's discussion list, not private emails.**</a>
 
 * ...
 
 Special notes contractors:
 --------------------------
 
-* <a href="use-right-namespace" id="use-right-namespace" >**Use the project's namespace consistently.**</a>
+* <a href="#use-right-namespace" id="use-right-namespace" >**Use the project's namespace consistently.**</a>
 
    For example, if you're a contractor writing code for a project
    whose home site is [openhmis.pcni.org](http://openhmis.pcni.org/),
