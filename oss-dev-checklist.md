@@ -26,13 +26,13 @@ Version Control
   One"](http://opentechstrategies.com/resources#be-open-from-day-one)
   for why it is important to develop in the open from the beginning.)
 
-  "Public" means that anyone with Internet access can check out a
-  copy of the project, without needing to register an account on the
+  "Public" means that anyone with Internet access can check out a copy
+  of the project, without needing to register an account on the
   version control site, and without being required to inform you or
   anyone else that they are checking out their own copy.  It does
-  _not_ mean that anyone can check in changes to your copy, of course
-  -- you manage that copy, so you always control who modifies it and
-  how.
+  _not_ mean that random people can check in changes to your copy,
+  naturally -- you manage that copy, so you control who modifies it
+  and how.
 
   We recommend [Git](http://git-scm.com/) as the version control
   system, with repository hosting on [GitHub](https://github.com/) or
@@ -44,13 +44,14 @@ Version Control
 
 * <a href="#vc-namespace" id="vc-namespace">**Put repositories in one project-related namespace.**</a>
 
-  Host all repositories under a single, project-related namespace.
+  Host the project's repositories in a single, project-related
+  namespace.
 
   This does not mean the namespace must be the same as the project
   name; it just means there should be _one_ namespace, and it should
   be related to the project in some long-term way.
 
-  For example, development in the OpenHMIS project is being led by a
+  For example, development in the OpenHMIS project is being led by
   Pathways Community Network Institute (PCNI).  They have registered
   an organization account on GitHub,
   [github.com/PCNI](https://github.com/PCNI/), and all repositories
@@ -59,16 +60,16 @@ Version Control
   [github.com/PCNI/outreach-app](https://github.com/PCNI/outreach-app),
   etc.
 
-  The goal of this advice is to avoid having parts of a project spread
-  out across the GitHub accounts of various individuals or
-  contractors.  It's fine for people to have unofficial forks of a
-  project in their own accounts.  But in order to ensure that the
-  latest development sources are always easily recognizeable, there
-  should be a policy that any development work that is incorporated
-  into the project goes immediately into the appropriate official
-  repository -- indeed, the way one can tell that a change has been
-  officially incorporated into the project is precisely by the fact
-  that it has entered one of the official repositories.
+  The purpose of this policy is to avoid having parts of a project
+  spread out across the GitHub accounts of various individuals and
+  contractors.  When a project is spread out like that, it's difficult
+  for people to figure out what they need to watch, or where they
+  should obtain source code from.  It's fine for developers to have
+  unofficial forks of a project in their own accounts, of course.  But
+  the latest official development sources should always be easily
+  identifiable by their location in the official namespace.  When a
+  change is checked in to one of the official repositories, that means
+  the change has been accepted by the project.
 
 * <a href="#vc-docs-etc" id="vc-docs-etc" >**Version documentation, design diagrams, etc, as well as code.**</a>
 
