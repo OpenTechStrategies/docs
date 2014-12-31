@@ -71,11 +71,27 @@ Version Control
   change is checked in to one of the official repositories, that means
   the change has been accepted by the project.
 
-* <a href="#vc-docs-etc" id="vc-docs-etc" >**Version documentation, design diagrams, etc, as well as code.**</a>
+* <a href="#vc-docs-etc" id="vc-docs-etc" >**Version your documentation, design diagrams, etc, as well as code.**</a>
+
+  If you have design documents, diagrams, and anything else that would
+  help a newcomer understand the project, keep them in the version
+  control repository too.
+
+  Sometimes these documents are written in a real-time collaborative
+  editing environment such as Google Docs.  If the docs are still
+  being actively edited there, then
+
+  1. Make sure the live copies are readable by anyone;
+  2. Link to them from the documentation in the version control repository;
+  3. Save checkpointed versions in the repository now and then,
+     but at the top of each checkpointed copy, link to the live online
+     copy, so people know where to get the latest material.
+
+* <a href="#vc-sources-only" id="vc-sources-only" >**Version source files, not generated files.**</a>
 
   TBD
 
-* <a href="#vc-sources-only" id="vc-sources-only" >**Version source files, not generated files.**</a>
+* <a href="#build-system" id="build-system" >**Use a build system.**</a>
 
   TBD
 
