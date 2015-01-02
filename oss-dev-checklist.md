@@ -99,6 +99,10 @@ Version Control
 
   TBD
 
+* <a href="#commit-messages" id="commit-messages" >**Write proper commit messages.**</a>
+
+  TBD.  See http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
+
 * <a href="#placeholders-for-sensitive-data" id="placeholders-for-sensitive-data" >**Store placeholder templates for passwords, live server configuration, etc.**</a>
 
   TBD
