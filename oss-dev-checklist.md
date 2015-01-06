@@ -42,6 +42,12 @@ Version Control
   repository yourself), that's fine, as long as people can access the
   code using widely-used open source tools.
 
+* <a href="#public-vc-is-master" id="public-vc-is-master">**Use the public repository as your own development master copy.**</a>
+
+  For example, see https://tech.dropbox.com/2014/07/open-sourcing-our-go-libraries/ :
+
+  "To make sure that we continue to invest in this open source effort, we are committed to using the public version of this repository internally. We are migrating our internal systems to use the libraries directly from this repository. This ensures all fixes and improvements are applied publicly before they are pulled back internally."
+
 * <a href="#vc-namespace" id="vc-namespace">**Put repositories in one project-related namespace.**</a>
 
   Host the project's repositories in a single, project-related
