@@ -1,24 +1,30 @@
-Open Source Development Checklist
-=================================
+<h1 style="text-align:center;">Open Source Development Contracting Checklist</h1>
 
-**_(DRAFT -- in progress)_**
+<p style="font-size: 85%; text-align: center;" >published under a <a
+href="https://creativecommons.org/licenses/by-sa/4.0/" 
+>Creative Commons Attribution-ShareAlike 4.0</a> license</p>
+
+<h4 style="font-style: italic; font-weight: bold; text-align: center;"
+>(DRAFT -- in progress)</h4>
 
 This checklist is for developers and managers who are new to open
-source practices.  It is based on our experiences working with many
-different types of organizations (including for-profit corporations,
-non-profits, and government agencies) that start or join open source
-projects, or that engage contractors to do open source work.
+source practices.  It is written both to help you draft contracts that
+are intended to procure open source results, and to help you work with
+the development team once the contract is under way.
 
-We update this checklist based on our work with our own clients, on
-our observations of various open source projects, and on
-[feedback](https://github.com/OpenTechStrategies/checklist/issues) from others.
-
-This checklist is published under the [Creative Commons Attribution-ShareAlike 3.0](https://creativecommons.org/licenses/by-sa/3.0/) license.
+This checklist is based on our real-world experiences with many
+different types of organizations (for-profit corporations,
+non-profits, and government agencies) that start open source projects
+or join them, and that engage contractors to do open source work.  We
+update this checklist as needed, based on our work with our own
+clients, on our observations of various open source projects, and on
+[feedback](https://github.com/OpenTechStrategies/checklist/issues)
+from others.
 
 Version Control
 ---------------
 
-* <a href="#use-public-vc" id="use-public-vc">**Use public version control from the start of development.**</a>
+* <a href="#use-public-vc" id="use-public-vc">**Public version control from start of development.**</a>
 
   From the moment the project first starts, keep everything in a
   public version control repository that can be accessed using an open
@@ -39,16 +45,17 @@ Version Control
   [Gitorious](https://gitorious.org/), both of which cost nothing for
   open source projects to use.  But if you prefer another version
   control system or another hosting site (including hosting the
-  repository yourself), that's fine, as long as people can access the
-  code using widely-used open source tools.
+  repository yourself), that's fine.  The important thing is that it
+  be public, and that people can access the code using common
+  open source tools.
 
-* <a href="#public-vc-is-master" id="public-vc-is-master">**Use the public repository as your own development master copy.**</a>
+* <a href="#public-vc-is-master" id="public-vc-is-master">**Public repository as the development master.**</a>
 
   For example, see https://tech.dropbox.com/2014/07/open-sourcing-our-go-libraries/ :
 
   "To make sure that we continue to invest in this open source effort, we are committed to using the public version of this repository internally. We are migrating our internal systems to use the libraries directly from this repository. This ensures all fixes and improvements are applied publicly before they are pulled back internally."
 
-* <a href="#vc-namespace" id="vc-namespace">**Put repositories in one project-related namespace.**</a>
+* <a href="#vc-namespace" id="vc-namespace">**Related repositories in one project-related namespace.**</a>
 
   Host the project's repositories in a single, project-related
   namespace.
@@ -77,7 +84,7 @@ Version Control
   change is checked in to one of the official repositories, that means
   the change has been accepted by the project.
 
-* <a href="#vc-docs-etc" id="vc-docs-etc" >**Version your documentation, design diagrams, etc, as well as code.**</a>
+* <a href="#vc-docs-etc" id="vc-docs-etc" >**Version documentation, design diagrams, etc, like code.**</a>
 
   If you have design documents, diagrams, and anything else that would
   help a newcomer understand the project, keep them in the version
@@ -101,7 +108,7 @@ Version Control
 
   TBD
 
-* <a href="#commit-often" id="commit-often" >**Commit frequently -- don't wait until something is perfect.**</a>
+* <a href="#commit-often" id="commit-often" >**Commit frequently -- don't wait until perfect.**</a>
 
   TBD
 
@@ -118,25 +125,25 @@ Version Control
 Documentation
 -------------
 
-* <a href="#doc-audience" id="doc-audience" >**Document with a target audience in mind.**</a>
+* <a href="#doc-audience" id="doc-audience" >**Document with target audience in mind.**</a>
 
   TBD
 
-* <a href="#doc-format" id="doc-format" >**Write documentation in Markdown format.**</a>
+* <a href="#doc-format" id="doc-format" >**Documentation in Markdown format.**</a>
 
   TBD.  Note the Markdown preview tools that are available.
 
-* <a href="#overview-in-readme" id="overview-in-readme" >**Put overview documentation into `README.md`.**</a>
+* <a href="#overview-in-readme" id="overview-in-readme" >**Overview documentation in `README.md`.**</a>
 
   TBD.  Distinguish between README and INSTALL files.
 
-* <a href="#separate-install-doc" id="separate-install-doc" >**Put overview documentation into `INSTALL.md`.**</a>
+* <a href="#separate-install-doc" id="separate-install-doc" >**Installation documentation in `INSTALL.md`.**</a>
 
-* <a href="#publish-license" id="publish-license" >**Use a LICENSE.md file so people know the code is open source.**</a>
+* <a href="#publish-license" id="publish-license" >**LICENSE.md file contains open source license.**</a>
 
   TBD.  Include links to advice on choosing a license.
 
-* <a href="#dev-docs" id="dev-docs" >**Document all needed test servers, etc**</a>
+* <a href="#dev-docs" id="dev-docs" >**Document test servers, etc.**</a>
 
   TBD.  Really this is about developer documentation in general.
 
@@ -150,14 +157,20 @@ Bug Tracking
 Communications
 --------------
 
-* <a href="#use-project-forums" id="use-project-forums" >**Use the project's discussion list, not private emails.**</a>
+* <a href="#use-project-forums" id="use-project-forums" >**Use project discussion list, not private email.**</a>
 
 * ...
 
-Special notes contractors:
---------------------------
+Special notes for contracting:
+------------------------------
 
-* <a href="#use-right-namespace" id="use-right-namespace" >**Use the project's namespace consistently.**</a>
+* <a href="#require-apis" id="require-apis" >**Require APIs and full import/export capability.**</a>
+
+  TBD. Just being open source isn't enough; the software needs to be
+  programmatically driveable, including the ability to get all data in
+  and out.
+
+* <a href="#use-right-namespace" id="use-right-namespace" >**Use project namespace consistently.**</a>
 
    For example, if you're a contractor writing code for a project
    whose home site is [openhmis.pcni.org](http://openhmis.pcni.org/),
