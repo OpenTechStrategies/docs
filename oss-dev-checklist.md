@@ -164,11 +164,17 @@ Communications
 Special notes for contracting:
 ------------------------------
 
-* <a href="#require-apis" id="require-apis" >**Require APIs and full import/export capability.**</a>
+* <a href="#require-apis" id="require-apis" >**Require APIs and import/export capability.**</a>
 
   TBD. Just being open source isn't enough; the software needs to be
   programmatically driveable, including the ability to get all data in
   and out.
+
+* <a href="#require-sample-data" id="require-sample-data" >**Require sample data.**</a>
+
+  TBD. Sample data is necessary for third parties to try out the
+  code.  It must be provided in the normal import format, not in some
+  intermediate format that requires domain-specific knowledge to use.
 
 * <a href="#use-right-namespace" id="use-right-namespace" >**Use project namespace consistently.**</a>
 
