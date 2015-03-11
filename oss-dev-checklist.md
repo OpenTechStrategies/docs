@@ -20,6 +20,9 @@ clients, on our observations of various open source projects, and on
 [feedback](https://github.com/OpenTechStrategies/checklist/issues)
 from others.
 
+The latest version of this document can always be found at
+[github.com/OpenTechStrategies/checklist](https://github.com/OpenTechStrategies/checklist).
+
 Version Control
 ---------------
 
