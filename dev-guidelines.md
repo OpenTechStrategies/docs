@@ -66,10 +66,13 @@ Python Guidelines.
   no return value, say that explicitly).
 
   Parameters should appear in the doc string in UPPER_CASE, even
-  though they are not upper case in the code.  (This convention is
+  though they are not upper case in the code (this convention is
   inherited from [Emacs
   Lisp](https://www.gnu.org/software/emacs/manual/html_node/elisp/Documentation-Tips.html#Documentation-Tips),
-  in case you're wondering.)
+  in case you're wondering).  Note that this means one should avoid
+  having parameters whose names differ only by case.  Actually, that's
+  a good principle to follow for identifiers of any kind, throughout
+  the code.
 
   There is no need to document every possible exception that might be
   thrown, but it is often good to document at least the custom
