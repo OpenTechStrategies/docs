@@ -6,22 +6,36 @@
 
 **DRAFT -- in progress, March 2015**
 
-This checklist is for developers and managers who are new to open
-source practices.  It is written both to help you draft contracts that
-are intended to procure open source results, and to help you work with
-the development team once the contract is under way.
+Introduction
+------------
 
-This checklist is based on our real-world experiences with many
-different types of organizations (for-profit corporations,
-non-profits, and government agencies) that start open source projects
-or join them, and that engage contractors to do open source work.  We
-update this checklist as needed, based on our work with our own
-clients, on our observations of various open source projects, and on
-[feedback](https://github.com/OpenTechStrategies/checklist/issues)
-from others.
+Several of our clients at [Open Tech Strategies,
+LLC](http://OpenTechStrategies.com/) have requested a checklist for
+doing open source software development, with special attention paid to
+guiding contractors who may be new to open source processes.  We are
+publishing this checklist in the hope that it will be useful to others
+(as well as to our clients), and to have the benefit of others'
+[feedback](https://github.com/OpenTechStrategies/docs/issues).
 
-The latest version of this document can always be found at
-[github.com/OpenTechStrategies/checklist](https://github.com/OpenTechStrategies/checklist).
+Please note that the intended audience of the checklist is _not_ the
+typical open source developer, who already knows much of this
+material.  It is for executives and managers who either do not have
+much experience with open source development, or who sometimes do not
+have much experience with software development at all, and who
+contract out most or all of their organization's development work.
+
+This checklist is meant to help you draft contracts that procure open
+source results, and to help you work with the development team in an
+open source manner once a contract is under way.  It is based on our
+real-world experiences with many different types of organizations
+(for-profit corporations, non-profits, and government agencies) that
+start open source projects or join them, and that engage contractors
+to do open source work.  We update this checklist as needed, based on
+our work with our own clients, on our observations of various open
+source projects, and on feedback from others.
+
+The latest version of this document can always be found in
+[https://github.com/OpenTechStrategies/docs/](https://github.com/OpenTechStrategies/docs/).
 
 Version Control
 ---------------

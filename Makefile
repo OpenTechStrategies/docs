@@ -1,7 +1,7 @@
-all: oss-dev-checklist.pdf
+all: dev-guidelines.pdf oss-dev-checklist.pdf
 
-oss-dev-checklist.pdf: oss-dev-checklist.md pandoc.template Makefile
+%.pdf: %.md pandoc.template Makefile
 	pandoc $< -o $@ --template pandoc.template
 
 clean:
-	rm -f *.aux *.log texput.pdf oss-dev-checklist.tex oss-dev-checklist.pdf
+	rm -f *.aux *.log texput.pdf *.tex *.pdf
