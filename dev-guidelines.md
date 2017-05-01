@@ -84,7 +84,7 @@ Python Guidelines.
 
   Document any variables whose structure and meaning is not obvious.
   For example, if it's not completely obvious what a dictionary holds,
-  then document what kinds of keys it holds, and exactly what values
+  then document what types of keys it has, and exactly what values
   they map to.
 
 * **Put a `__doc__` string at the top of each source file.** 
