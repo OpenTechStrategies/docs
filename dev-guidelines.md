@@ -5,22 +5,49 @@ Published under a [Creative Commons Attribution-ShareAlike 4.0](https://creative
 Introduction
 ------------
 
-At OTS, we write code in many different programming languages.  For
-now, these guidelines cover mainly Python because Python is the
-language where we first needed some standards.  When you write in
-other languages, please try to use these guidelines to insofar as they
-can be applied to that language, and update this document as
-necessary.  If you want to discuss any of the guidelines, find us in
-`#OpenTechStrategies` on the Freenode.net IRC network, or just open an
-[issue](https://github.com/OpenTechStrategies/docs/issues/new).
-
 All code should be developed from the start in a public repository
 under an open source license, except when there is a specific reason
 not to (e.g., a client agreement that stipulates the code only be
 released upon completion).  Please have a partner at the firm sign off
 on the outbound license; our default is usually the [GNU Affero
 General Public License](https://www.gnu.org/licenses/agpl-3.0.en.html),
-but other open source licenses may be used depending on circumstances.
+but we may use other open source licenses depending on circumstances.
+
+We write code in many different programming languages.  For now, the
+language-specific part of these guidelines covers mainly Python
+because Python is the language where we first needed some standards.
+When you write in other languages, please try to use these guidelines
+to insofar as they can be applied to that language, and update this
+document as necessary.  If you want to discuss any of the guidelines,
+please [contact](https://opentechstrategies.com/#contact) us or open
+an [issue](https://github.com/OpenTechStrategies/docs/issues/new) to
+discuss.
+
+Commit Messages.
+================
+
+Please use [this doc](https://chris.beams.io/posts/git-commit/) as a
+guide to writing good commit messages (also sometimes known as log
+messages).
+
+We use the "<=50 character first line with no period, followed by a
+blank line, followed by other stuff" convention.  The body of the
+commit message should use real line breaks, with around 76 characters
+as the right-side limit.  If your commit is related to one or more
+issue tickets, identify them (in the first line, if they fit) with a
+"#" mark on the front of each number.
+
+Use the prefix "WIP:" at the start of your commit message to indicate
+a "work in progress" commit.  A WIP commit is a commit that is just
+part of a not-yet-completed logical change.  You might push such a
+commit to the repository in order to save a progress checkpoint, and
+perhaps to provide visibility to others who might be interested.
+
+Please commit often.  We generally follow a "tip of trunk always
+builds" rule.  But for moments of prototyping and discovery,
+especially in 1-file / one-person projects that aren't in production
+yet and don't affect any of your colleagues, that rule is relaxed;
+it's more important to see your progress.  
 
 Python Guidelines.
 ==================
